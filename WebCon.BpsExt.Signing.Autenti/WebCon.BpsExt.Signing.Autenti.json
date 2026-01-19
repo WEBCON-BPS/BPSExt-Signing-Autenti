@@ -1,24 +1,24 @@
-{
-  "extensions": [
-    {
-      "Guid": "3d140400-e85a-4799-ba8a-9e9f029e68b9",
-      "Name": "APIv2 DownloadSignAttAction",
-      "Description": "Get details/content of a specific file",
-      "Assembly": "WebCon.BpsExt.Signing.Autenti",
-      "Class": "WebCon.BpsExt.Signing.Autenti.CustomActions.APIv2.DownloadSignAttAction",
-      "Type": "CustomAction"
-    },
-    {
-      "Guid": "61ec1329-6843-4131-b032-bb0d3fc6437b",
-      "Name": "APIv2 SendingDocumentAction",
-      "Description": "Creating & sending a document via API",
-      "Assembly": "WebCon.BpsExt.Signing.Autenti",
-      "Class": "WebCon.BpsExt.Signing.Autenti.CustomActions.APIv2.SendingDocumentAction",
-      "Type": "CustomAction"
-    }
-  ],
-  "dependencies": [
-    "WebCon.BpsExt.Signing.Autenti"
-  ],
-  "version": "25"
+﻿{
+    "extensions": [
+        {
+            "Guid": "3d140400-e85a-4799-ba8a-9e9f029e68b9",
+            "Name": "APIv2 DownloadSignAttAction",
+            "Description": "Get details/content of a specific file",
+            "Assembly": "WebCon.BpsExt.Signing.Autenti",
+            "Class": "WebCon.BpsExt.Signing.Autenti.CustomActions.APIv2.DownloadSignAttAction",
+            "Type": "CustomAction"
+        },
+        {
+          "Guid": "61ec1329-6843-4131-b032-bb0d3fc6437b",
+          "Name": "APIv2 SendingDocumentAction",
+          "Description": "Creating & sending a document via API",
+          "Assembly": "WebCon.BpsExt.Signing.Autenti",
+          "Class": "WebCon.BpsExt.Signing.Autenti.CustomActions.APIv2.SendingDocumentAction",
+          "Type": "CustomAction"
+        }
+    ],
+    "dependencies": [
+        "WebCon.BpsExt.Signing.Autenti"
+    ],
+    "version": "26"
 }

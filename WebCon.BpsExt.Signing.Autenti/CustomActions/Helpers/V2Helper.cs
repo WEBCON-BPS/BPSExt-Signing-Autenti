@@ -107,7 +107,7 @@ namespace WebCon.BpsExt.Signing.Autenti.CustomActions.Helpers
                 request.Headers.Add("Accept", Accept);
 
                 var response = await _httpClient.SendAsync(request);
-                var result = response.Content.ReadAsStringAsync();
+                var result = await response.Content.ReadAsStringAsync();
                 _context.PluginLogger?.AppendDebug("AddFileAsync Response: " + result);
                 response.EnsureSuccessStatusCode();
             }
